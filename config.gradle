@@ -1,0 +1,56 @@
+ext {
+    android = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            minSdkVersion    : 23,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : "1.0.1"
+
+    ]
+
+    manifestPlaceholders = [
+            //服务器地址
+            serverHost       : "http://www.503128.com",
+
+            //腾讯IM appId
+            TxIMAppId        : "1400813866",
+            //腾讯tpns推送
+            XG_ACCESS_ID     : "1530003844",
+            XG_ACCESS_KEY    : "A7LK4KTHVBTZ",
+            //tpns推送接入点的域名
+            XG_SERVER_SUFFIX : "tpns.hk.tencent.com",
+            //广州：tpns.tencent.com
+            //上海：tpns.sh.tencent.com
+            //新加坡：tpns.sgp.tencent.com
+            //中国香港：tpns.hk.tencent.com
+
+            //腾讯地图
+            txMapAppKey      : "xxxxxx",
+            txMapAppSecret   : "xxxxxx",
+
+            //腾讯bugly
+            buglyAppId       : "xxxxx",
+
+            //百度语音识别
+            baiduAppId       : "xxxxx",
+            baiduAppKey      : "xxxxx",
+            baiduAppSecretKey: "xxxxx",
+
+            //友盟统计
+            umengAppKey      : "xxxxx",
+            //openInstall
+            openinstallAppKey: "sid3o0",
+
+            MobAppKey   : "xxxxx",
+            MobAppSecret: "xxxxx",
+
+            QQAppId     : "xxxxx",
+            QQAppKey    : "xxxxx",
+
+            WxAppId     : "xxxxx",
+            WxAppSecret : "xxxxx",
+
+    ]
+
+}

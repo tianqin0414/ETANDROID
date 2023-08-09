@@ -1,0 +1,26 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+build/
+*/debug
+*/release
+/tmpmob
+# Project exclude paths
+/app/
+/baidu/
+/beauty/
+/common/
+/gradle/
+/im/
+/libs/
+/live/
+/main/
+/mall/
+/video/

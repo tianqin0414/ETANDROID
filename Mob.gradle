@@ -1,0 +1,57 @@
+apply plugin: 'com.mob.sdk'
+
+MobSDK {
+
+    def MobAppKey = rootProject.ext.manifestPlaceholders.MobAppKey
+    def MobAppSecret = rootProject.ext.manifestPlaceholders.MobAppSecret
+    println "MobAppKey--->" + MobAppKey
+    println "MobAppSecret--->" + MobAppSecret
+
+    appKey MobAppKey
+    appSecret MobAppSecret
+
+    ShareSDK {
+        version '3.9.9'
+        loopShare true
+        devInfo {
+            def QQAppId = rootProject.ext.manifestPlaceholders.QQAppId
+            def QQAppKey = rootProject.ext.manifestPlaceholders.QQAppKey
+            def WxAppId = rootProject.ext.manifestPlaceholders.WxAppId
+            def WxAppSecret = rootProject.ext.manifestPlaceholders.WxAppSecret
+            println "QQAppId--->" + QQAppId
+            println "QQAppKey--->" + QQAppKey
+            println "WxAppId--->" + WxAppId
+            println "WxAppSecret--->" + WxAppSecret
+
+            QQ {
+                appId QQAppId
+                appKey QQAppKey
+            }
+            QZone {
+                appId QQAppId
+                appKey QQAppKey
+            }
+            Wechat {
+                appId WxAppId
+                appSecret WxAppSecret
+            }
+            WechatMoments {
+                appId WxAppId
+                appSecret WxAppSecret
+            }
+
+            Facebook {
+                appKey "692827955241338"
+                appSecret "630eb901d3861b414bf374c86bd9f459"
+                callbackUri "https://mob.com"
+            }
+            Twitter {
+                appKey "LRBM0H75rWrU9gNHvlEAA2aOy"
+                appSecret "gbeWsZvA9ELJSdoBzJ5oLKX0TU09UOwrzdGfo9Tg7DjyGuMe8G"
+                callbackUri "http://mob.com"
+            }
+
+        }
+    }
+
+}

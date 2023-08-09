@@ -1,0 +1,31 @@
+ext {
+
+    dependencies = [
+            "androidx"             : "androidx.appcompat:appcompat:1.1.0",
+            "recyclerview"         : 'androidx.recyclerview:recyclerview:1.1.0',
+            "material"             : 'com.google.android.material:material:1.1.0',
+            "cardview"             : 'androidx.cardview:cardview:1.0.0',
+            "coordinatorlayout"    : "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+            "multidex"             : 'androidx.multidex:multidex:2.0.1',
+            "okhttp"               : 'com.squareup.okhttp3:okhttp:3.11.0',//okHttp网络请求
+            "okgo"                 : 'com.lzy.net:okgo:3.0.4',//OkGo 是对okHttp的封装
+            "okserver"             : 'com.lzy.net:okserver:2.0.5',//OkGo上传下载扩展库
+            "fastjson"             : 'com.alibaba:fastjson:1.1.70.android',//fastJson解析json
+            "eventbus"             : 'org.greenrobot:eventbus:3.0.0',//eventbus事件总线
+            "glide"                : 'com.github.bumptech.glide:glide:4.9.0',//使用Glide加载图片
+            "glide-transformations": 'jp.wasabeef:glide-transformations:3.1.1',//一个基于Glide的transformation库,拥有裁剪,着色,模糊,滤镜等多种转换效果
+            "roundedimageview"     : 'com.makeramen:roundedimageview:2.3.0', //带圆角，边框的的ImageView
+            "gif-drawable"         : 'pl.droidsonroids.gif:android-gif-drawable:1.2.15',//gif库，播放礼物gif用
+            "SVGAPlayer"           : 'com.github.yyued:SVGAPlayer-Android:2.6.1', //svga播放器
+            "qiniu-sdk"            : 'com.qiniu:qiniu-android-sdk:7.4.3',//七牛云存储
+            "tencent-cosxml"       : 'com.tencent.qcloud:cosxml:5.5.8',//腾讯云存储
+            "tencent-wechat-sdk"   : 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0',//微信sdk,支付登录分享
+            "tencent-bugly"        : 'com.tencent.bugly:crashreport:2.6.6',//腾讯bugly
+            "ucrop"                : 'com.github.yalantis:ucrop:2.2.2',//图片裁剪
+            "smartRefreshLayout"   : 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-20',//下拉刷新上拉加载
+            "magicIndicator"       : 'com.github.hackware1993:MagicIndicator:1.5.0',//ViewPager指示器
+            "Luban"                : 'top.zibin:Luban:1.1.8',//鲁班压缩图片
+    ]
+
+
+}
